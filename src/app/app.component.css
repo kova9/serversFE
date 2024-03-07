@@ -1,0 +1,51 @@
+.server-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; /* Adjust the width as needed */
+}
+
+.server-table th {
+  background-color: green;
+  color: white;
+}
+
+.server-table tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+.server-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  width: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+button {
+  margin: 10px 0; /* Adds some space around inputs and button */
+}
+
+.table-and-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.button-container {
+  margin-top: 10px;
+}
