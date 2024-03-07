@@ -119,13 +119,10 @@
     />
 
     <label for="status">State:</label>
-    <input
-      type="text"
-      id="state"
-      [(ngModel)]="newServer.status"
-      name="status"
-      required
-    />
+    <select id="status" [(ngModel)]="newServer.status" name="status" required>
+      <option value="0">SERVER_UP</option>
+      <option value="1">SERVER_DOWN</option>
+    </select>
 
     <button type="submit">Create Server</button>
   </form>
